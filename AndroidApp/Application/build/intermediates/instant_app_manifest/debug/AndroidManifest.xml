@@ -51,6 +51,8 @@
         <activity android:name="com.example.android.recyclerview.LogInActivity" />
         <activity android:name="com.example.android.recyclerview.MainActivity" />
         <activity android:name="com.example.android.recyclerview.AcceptTaskActivity" />
+        <activity android:name="com.example.android.recyclerview.VegetablesActivity" />
+        <activity android:name="com.example.android.recyclerview.VolunteerTipsActivity" />
         <activity
             android:name="com.example.android.recyclerview.CreateTaskActivity"
             android:parentActivityName="com.example.android.recyclerview.MainActivity" />

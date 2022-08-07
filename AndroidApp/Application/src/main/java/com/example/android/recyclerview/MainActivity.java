@@ -37,6 +37,7 @@ import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -218,6 +219,31 @@ public class MainActivity extends AppCompatActivity {
     public void onResume() {
         super.onResume();
         ((RecyclerViewFragment)adapter.getItem(viewPager.getCurrentItem())).initDataset();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        if (!RoleWrapper.getInstance().getRoleIsVolunteer()) {
+            getMenuInflater().inflate(R.menu.main, menu);
+        } else {
+            getMenuInflater().inflate(R.menu.main_owner, menu);
+        }
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.Vegetables:
+                startActivity(new Intent(getApplication(), VegetablesActivity.class));
+                return true;
+            case R.id.Volunteer:
+                startActivity(new Intent(getApplication(), VolunteerTipsActivity.class));
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
 }

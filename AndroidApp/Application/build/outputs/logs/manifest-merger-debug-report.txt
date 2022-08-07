@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:18:1-53:12
-INJECTED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:18:1-53:12
-INJECTED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:18:1-53:12
+ADDED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:18:1-55:12
+INJECTED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:18:1-55:12
+INJECTED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:18:1-55:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/zhe/.gradle/caches/transforms-2/files-2.1/4b53284af2dc9632eacaa480f93e6a68/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.0.0] /Users/zhe/.gradle/caches/transforms-2/files-2.1/95933970e480309a5dc36f825b2bb8a8/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/zhe/.gradle/caches/transforms-2/files-2.1/7c57fecf869015698be9a1f87f9d4aca/AndroidManifest.xml:17:1-22:12
@@ -39,8 +39,8 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/zhe/.gradle/caches/tr
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/zhe/.gradle/caches/transforms-2/files-2.1/89a512f92e59d7bd66978b9a4bfe568f/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/zhe/.gradle/caches/transforms-2/files-2.1/4e662f471eb09854baf54ee03946325b/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/zhe/.gradle/caches/transforms-2/files-2.1/de1a33b18e06187d0ed02d856b0a7949/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:18:1-53:12
-INJECTED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:18:1-53:12
+INJECTED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:18:1-55:12
+INJECTED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:18:1-55:12
 	package
 		ADDED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:20:5-47
 	android:versionName
@@ -68,7 +68,7 @@ ADDED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/m
 	android:name
 		ADDED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:25:22-78
 application
-ADDED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:28:5-50:19
+ADDED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:28:5-52:19
 MERGED from [com.google.android.material:material:1.0.0] /Users/zhe/.gradle/caches/transforms-2/files-2.1/95933970e480309a5dc36f825b2bb8a8/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /Users/zhe/.gradle/caches/transforms-2/files-2.1/95933970e480309a5dc36f825b2bb8a8/AndroidManifest.xml:22:5-20
 MERGED from [com.github.KwabenBerko:OpenWeatherMap-Android-Library:2.1.0] /Users/zhe/.gradle/caches/transforms-2/files-2.1/42760b222ded2d71e8cf0e07686d0ba9/AndroidManifest.xml:11:5-15:19
@@ -120,12 +120,20 @@ activity#com.example.android.recyclerview.AcceptTaskActivity
 ADDED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:46:9-55
 	android:name
 		ADDED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:46:19-53
-activity#com.example.android.recyclerview.CreateTaskActivity
-ADDED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:47:9-49:15
-	android:parentActivityName
-		ADDED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:48:13-55
+activity#com.example.android.recyclerview.VegetablesActivity
+ADDED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:47:9-55
 	android:name
 		ADDED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:47:19-53
+activity#com.example.android.recyclerview.VolunteerTipsActivity
+ADDED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:48:9-58
+	android:name
+		ADDED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:48:19-56
+activity#com.example.android.recyclerview.CreateTaskActivity
+ADDED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:49:9-51:15
+	android:parentActivityName
+		ADDED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:50:13-55
+	android:name
+		ADDED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml:49:19-53
 uses-sdk
 INJECTED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/zhe/my_work/views-widgets-samples/AndroidApp/Application/src/main/AndroidManifest.xml

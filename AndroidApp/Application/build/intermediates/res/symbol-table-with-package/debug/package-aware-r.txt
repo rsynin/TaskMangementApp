@@ -1040,6 +1040,8 @@ id StaticAddress
 id StaticEmergency
 id StaticType
 id Type
+id Vegetables
+id Volunteer
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -1135,6 +1137,7 @@ id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id example_view
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1146,6 +1149,7 @@ id fixed
 id forever
 id ghost_view
 id group_divider
+id harvestTime
 id hiUser
 id home
 id homeAsUp
@@ -1168,7 +1172,6 @@ id list_item
 id locationContent
 id masked
 id media_actions
-id menu_toggle_log
 id message
 id middle
 id mini
@@ -1190,6 +1193,7 @@ id parallax
 id parentPanel
 id parent_matrix
 id pin
+id plantTime
 id progress_circular
 id progress_horizontal
 id radio
@@ -1291,6 +1295,7 @@ id userNameInMain
 id userPwd
 id userRole
 id userRoleInMain
+id vegetableName
 id viewPager
 id view_offset_helper
 id visible
@@ -1354,6 +1359,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout accept_task
 layout activity_main
+layout activity_vegetables
+layout activity_volunteer_tips
 layout create_task
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -1395,7 +1402,9 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout text_row_item
+layout vegetable_item
 menu main
+menu main_owner
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

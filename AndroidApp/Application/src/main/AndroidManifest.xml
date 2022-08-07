@@ -44,6 +44,8 @@
         <activity android:name=".LogInActivity"/>
         <activity android:name=".MainActivity"/>
         <activity android:name=".AcceptTaskActivity"/>
+        <activity android:name=".VegetablesActivity"/>
+        <activity android:name=".VolunteerTipsActivity"/>
         <activity android:name=".CreateTaskActivity"
             android:parentActivityName=".MainActivity"
             />
